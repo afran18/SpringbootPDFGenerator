@@ -1,0 +1,25 @@
+{{!-- Reusable header. Included in quotation.hbs with:  {{> partials/header}} --}}
+<div class="header-wrap">
+  <table class="header">
+    <tr>
+      <td class="h-badge">
+        <div class="badge">{{company.initials}}</div>
+      </td>
+      <td class="h-brand">
+        <div class="brand-name">{{company.name}}</div>
+        <div class="brand-para">{{company.services}}</div>
+      </td>
+      <td class="h-doc">
+        <div class="doc-word">QUOTATION</div>
+        <div class="doc-no">No. {{quotationNumber}}</div>
+      </td>
+    </tr>
+  </table>
+  <div class="contact">
+    {{#if company.address}}{{company.address}}{{/if}}
+    {{#if company.phone}}&nbsp;|&nbsp; Ph: {{company.phone}}{{/if}}
+    {{#if company.email}}&nbsp;|&nbsp; {{company.email}}{{/if}}
+    {{#if company.gstin}}&nbsp;|&nbsp; GSTIN: {{company.gstin}}{{/if}}
+  </div>
+</div>
+<div class="accent-bar"></div>

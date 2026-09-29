@@ -1,0 +1,32 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ar-arts-quotation
+
+quotation:
+  # Used when the React app does not send these values
+  default-gst-percent: 18
+  default-validity-days: 15
+
+  # Origins of the React app (CORS)
+  cors-allowed-origins:
+    - http://localhost:3000
+    - http://localhost:5173
+
+  # Shown in the PDF header. CHANGE THESE to your real details.
+  company:
+    name: AR Arts
+    services: Flex Banners, Digital Sign Boards, LED Boards, Hoardings, Foam Boards, Vinyls etc...
+    address: "No. 00, Your Street, Your Area, Bengaluru - 560000"
+    phone: "+91 00000 00000"
+    email: "info@ararts.example"
+    gstin: ""          # leave empty to hide GSTIN in the PDF
+
+  terms:
+    - 50% advance along with the order, balance on delivery / installation.
+    - Prices are valid for the period mentioned above and are subject to change after that.
+    - Artwork and design changes after approval will be charged extra.
+    - Installation at height or special permissions (hoarding / municipal fees) are not included unless mentioned.
+    - Goods once printed to approved artwork cannot be returned or exchanged.

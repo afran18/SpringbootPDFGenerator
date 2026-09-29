@@ -1,0 +1,18 @@
+{
+  "customer": {
+    "name": "Ramesh Kumar",
+    "phone": "+91 98450 12345",
+    "email": "ramesh@example.com",
+    "address": "12, MG Road, Bengaluru - 560001",
+    "gstin": "29ABCDE1234F1Z5"
+  },
+  "items": [
+    {"name": "Flex Banner (Star Flex)", "description": "High-resolution eco-solvent print with eyelets and hemming", "size": "10 x 4 ft", "unit": "sq.ft", "quantity": 40, "rate": 14},
+    {"name": "LED Sign Board", "description": "Acrylic face letters with LED backlight\nIncludes power supply and mounting frame", "size": "6 x 2 ft", "unit": "nos", "quantity": 1, "rate": 18500},
+    {"name": "Foam Board Standee", "description": "10mm foam board with matte lamination", "size": "3 x 2 ft", "unit": "nos", "quantity": 5, "rate": 650},
+    {"name": "Vinyl Sticker Branding", "description": "Cut-to-shape vinyl for shop glass", "size": "", "unit": "sq.ft", "quantity": 120, "rate": 38}
+  ],
+  "gstPercent": 18,
+  "discount": 500,
+  "notes": "Artwork to be approved by customer before printing.\nInstallation charges included within Bengaluru city limits."
+}
